@@ -62,6 +62,7 @@ of the image.
 #- source
 %doc %{_texmfdistdir}/source/latex/rviewport/rviewport.dtx
 %doc %{_texmfdistdir}/source/latex/rviewport/rviewport.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -72,3 +73,5 @@ of the image.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
