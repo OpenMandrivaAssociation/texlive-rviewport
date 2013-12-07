@@ -6,7 +6,7 @@
 # catalog-version v1.0
 Name:		texlive-rviewport
 Version:	v1.0
-Release:	4
+Release:	5
 Summary:	Relative Viewport for Graphics Inclusion
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/rviewport
