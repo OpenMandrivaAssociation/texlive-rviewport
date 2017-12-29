@@ -1,12 +1,6 @@
-# revision 23739
-# category Package
-# catalog-ctan /macros/latex/contrib/rviewport
-# catalog-date 2011-08-28 17:37:31 +0200
-# catalog-license lppl
-# catalog-version v1.0
 Name:		texlive-rviewport
-Version:	v1.0
-Release:	10
+Version:	1.0
+Release:	1
 Summary:	Relative Viewport for Graphics Inclusion
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/rviewport
@@ -62,17 +56,3 @@ of the image.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.0-2
-+ Revision: 755782
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v1.0-1
-+ Revision: 719474
-- texlive-rviewport
-- texlive-rviewport
-- texlive-rviewport
-- texlive-rviewport
-
