@@ -1,6 +1,6 @@
 Name:		texlive-rviewport
 Version:	23739
-Release:	1
+Release:	2
 Summary:	Relative Viewport for Graphics Inclusion
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/rviewport
