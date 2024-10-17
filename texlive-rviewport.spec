@@ -3,7 +3,7 @@ Version:	23739
 Release:	2
 Summary:	Relative Viewport for Graphics Inclusion
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/rviewport
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/rviewport
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/rviewport.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/rviewport.doc.r%{version}.tar.xz
